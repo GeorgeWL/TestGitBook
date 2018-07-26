@@ -37,19 +37,83 @@ echo 'You got to trust me on this, I saved the world'
 
 #### h3
 
-* List
-* List
+## Lists
 
-1. one
-2. two
+### bullet
+
+* Item
+* Another Item
+
+### ordered
+
+1. One
+2. Two
+
+### tasks 
+
+* [ ] Do this
+* [ ] Do That
+* [x] Done That
+
+## Code block
+
+### can be supplied language for context
 
 ```javascript
 let items = ['test','testing','testing2']
 console.log('items',items)
 ```
 
+### Or just be generic
+
+```text
+let items = ['test','testing','testing2']
+console.log('items',items)
+```
+
+## Hint Block
+
+for important messages and hints
+
+### info
+
 {% hint style="info" %}
-Hint
+info
+{% endhint %}
+
+### warning
+
+{% hint style="warning" %}
+warning
+{% endhint %}
+
+### danger
+
+{% hint style="danger" %}
+danger
+{% endhint %}
+
+### success
+
+{% hint style="success" %}
+success
+{% endhint %}
+
+these can have children of H1, H2,H3, Task List and P nested inside of them.
+
+{% hint style="info" %}
+## Info
+
+Some Paragraph
+
+### Wowzers
+
+Yep
+
+#### Tasks
+
+* [ ] Do this
+* [ ] Do that
 {% endhint %}
 
 {% api-method method="post" host="" path="" %}
@@ -90,7 +154,7 @@ expects the name of a user
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% page-ref page="./" %}
+## Tabs content
 
 {% tabs %}
 {% tab title="First Tab" %}
@@ -102,9 +166,21 @@ tab content 2
 {% endtab %}
 {% endtabs %}
 
+## Maths
+
+### uses standard maths
+
 $$
-$\int \zeta^{2}(x) \, dx$
+7 + 1 = 8
 $$
+
+### uses LaTeX
+
+$$
+\int \zeta^{2}(x) \, dx
+$$
+
+## File Download
 
 {% file src=".gitbook/assets/thumbsup.png" caption="image download" %}
 
