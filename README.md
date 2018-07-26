@@ -154,6 +154,20 @@ expects the name of a user
 {% endapi-method-spec %}
 {% endapi-method %}
 
+## Embeds
+
+### codepen
+
+{% embed data="{\"url\":\"https://codepen.io/ainalem/full/XBgJYP/\",\"type\":\"rich\",\"title\":\"XOR\",\"icon\":{\"type\":\"icon\",\"url\":\"https://codepen.io/favicons/favicon-192x192.png\",\"width\":192,\"height\":192,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://s3-us-west-2.amazonaws.com/i.cdpn.io/449845.XBgJYP.small.34d483ed-f81a-4dff-b439-85160741ac83.png\",\"width\":384,\"height\":225,\"aspectRatio\":0.5859375},\"embed\":{\"type\":\"app\",\"url\":\"https://codepen.io/ainalem/embed/preview/XBgJYP?height=300&slug-hash=XBgJYP&default-tabs=css,result&host=https://codepen.io&embed-version=2\",\"html\":\"<iframe src=\\\"https://codepen.io/ainalem/embed/preview/XBgJYP?height=300&amp;slug-hash=XBgJYP&amp;default-tabs=css,result&amp;host=https://codepen.io&amp;embed-version=2\\\" style=\\\"border: 0; width: 100%; height: 300px;\\\" allowfullscreen></iframe>\",\"height\":300,\"aspectRatio\":null}}" %}
+
+### youtube
+
+{% embed data="{\"url\":\"https://www.youtube.com/watch?v=C0DPdy98e4c\",\"type\":\"video\",\"title\":\"TEST VIDEO\",\"description\":\"COUNTING LEADER AND TONE\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/C0DPdy98e4c/hqdefault.jpg\",\"width\":480,\"height\":360,\"aspectRatio\":0.75},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/C0DPdy98e4c?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 75.0019%;\\\"><iframe src=\\\"https://www.youtube.com/embed/C0DPdy98e4c?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.3333}}" %}
+
+### github
+
+{% embed data="{\"url\":\"https://github.com/pixelinspiration\",\"type\":\"link\",\"title\":\"Pixel Inspiration\",\"description\":\"GitHub is where people build software. More than 28 million people use GitHub to discover, fork, and contribute to over 85 million projects.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/11177372?s=280&v=4\",\"width\":73,\"height\":73,\"aspectRatio\":1}}" %}
+
 ## Tabs content
 
 {% tabs %}
