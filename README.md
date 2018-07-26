@@ -6,7 +6,7 @@ description: Test Page with all the default settings
 
 ## Links
 
-{% page-ref page="second-page.md" %}
+{% page-ref page="api.md" %}
 
 {% page-ref page="changelog.md" %}
 
