@@ -4,6 +4,14 @@ description: Test Page with all the default settings
 
 # Initial page
 
+## Links
+
+{% page-ref page="second-page.md" %}
+
+{% page-ref page="changelog.md" %}
+
+{% page-ref page="faq.md" %}
+
 ## Getting Super Powers
 
 Becoming a super hero is a fairly straight forward process:
