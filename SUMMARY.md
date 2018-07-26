@@ -3,4 +3,5 @@
 * [Initial page](README.md)
 * [Second page](second-page.md)
 * [Changelog](changelog.md)
+* [FAQ](faq.md)
 
